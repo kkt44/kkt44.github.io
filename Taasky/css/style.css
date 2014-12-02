@@ -1,0 +1,40 @@
+ {
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+body {
+       background-color: #535A6C;
+       line-height: 4em;
+     }
+section {
+         margin-left: 100px;
+}
+
+hr {
+       color: #e66060;
+       position: left;
+       width: 40px;
+       border: normal;
+       
+     }
+
+p {
+      color: white;
+      font-weight: normal;
+      font-family: helvetica;
+      font-size: 16px;
+    }
+
+#stripe {
+       position: absolute;
+       top: 0px;
+       margin: 0%;
+       width: 100%;
+     }
+
+.section {
+       float: top;
+}
+
