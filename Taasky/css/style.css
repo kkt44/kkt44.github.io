@@ -5,10 +5,10 @@
 }
 
 body {
- background:url('../assets/background.jpg');
+ background:url('../assets/stripes.png'), url('../assets/background.jpg');
  background-color: #535A6C;
- background-repeat:no-repeat;
- background-size:cover;
+ background-repeat:repeat-x, no-repeat;
+ background-size:auto, cover;
  color: white;
  font-weight: normal;
  font-family: helvetica, arial, sans-serif;
