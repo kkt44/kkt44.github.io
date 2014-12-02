@@ -1,40 +1,29 @@
- {
-      margin:0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+* {
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+}
 
 body {
-       background-color: #535A6C;
-       line-height: 4em;
-     }
+ background:url('../assets/background.jpg');
+ background-color: #535A6C;
+ background-repeat:no-repeat;
+ background-size:cover;
+ color: white;
+ font-weight: normal;
+ font-family: helvetica, arial, sans-serif;
+ font-size: 16px;
+ line-height: 4em;
+}
 section {
-         margin-left: 100px;
+         margin: 300px 0 0 100px;
 }
 
 hr {
-       color: #e66060;
-       position: left;
+       border-color: #e66060;
        width: 40px;
-       border: normal;
-       
-     }
+}
 
 p {
-      color: white;
-      font-weight: normal;
-      font-family: helvetica;
-      font-size: 16px;
-    }
-
-#stripe {
-       position: absolute;
-       top: 0px;
-       margin: 0%;
-       width: 100%;
-     }
-
-.section {
-       float: top;
 }
 
