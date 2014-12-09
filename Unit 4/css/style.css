@@ -26,6 +26,9 @@ img {
 }
 
 h1 {
+	font-family:'Roboto', serif;
+	font-weight:900;
+	font-style:italics;
 	font-size: 2em;
 	line-height:1.25em;
 	text-transform: uppercase;
