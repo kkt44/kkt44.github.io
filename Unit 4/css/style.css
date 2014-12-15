@@ -7,42 +7,46 @@
 	margin-top:20px;
 }
 body {
-	background:url('../assets/home.jpg') no-repeat;
+	background:url('../assets/beetroot.jpg') no-repeat;
 	background-size: cover;
-	color:#fff;
-	font-size: 20px;
-	line-height: 1.25em;
+	color:#000;
+	font-size: 15px;
+	line-height: 1.5em;
 }
 section {
-	margin: 100px 0 50px 0;
-	width:33.33%;
+	margin: 100px 100px 50px 370px;
+	width:80%;
 }
 div {
 	margin:0 auto;
-	width:380px;
+	width:300px;
 }
 img {
 	margin:20px; 
 }
 
 h1 {
-	font-family:'Roboto', serif;
+	font-family:'Merriweather', serif;
 	font-weight:900;
-	font-style:italics;
 	font-size: 2em;
 	line-height:1.25em;
 	text-transform: uppercase;
+	text-align: center;
 }
 
-p {
+p { 
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	padding: 1em;
 }
 
 a {
-	border:2px solid #fff;
+	border:3px solid #000;
 	display:block;
-	color:#fff;
+	color:#000;
 	font-size:2em;
-	padding:1em 2em;
+	padding: 1em 1em;
 	text-align: center;
 	text-decoration:none;
 }
