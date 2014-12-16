@@ -9,17 +9,14 @@
 body {
 	background:url('../assets/beetroot.jpg') no-repeat;
 	background-size: cover;
-	color:#000;
+	color:#333;
+	font-family: helvetica, arial, sans-serif;
 	font-size: 15px;
 	line-height: 1.5em;
 }
 section {
-	margin: 100px 100px 50px 370px;
-	width:80%;
-}
-div {
-	margin:0 auto;
-	width:300px;
+	margin: 100px 0 50px 55%;
+	max-width:300px;
 }
 img {
 	margin:20px; 
@@ -42,11 +39,17 @@ p {
 }
 
 a {
-	border:3px solid #000;
+	border:3px solid #333;
 	display:block;
-	color:#000;
+	color:#333;
 	font-size:2em;
-	padding: 1em 1em;
+	padding: .5em;
 	text-align: center;
 	text-decoration:none;
+}
+a:hover {
+	background:#c12f6d;
+	border:3px solid #c12f6d;
+	color:#fff;
+	transition-duration:.5s;
 }
