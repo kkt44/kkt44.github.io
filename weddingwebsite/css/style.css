@@ -30,5 +30,8 @@ a:hover {
 }
 
 #hphoto {
+	background:url('images/homepage.JPG') no-repeat;
+	background-size:cover;
+	height:780px;
 }
 
