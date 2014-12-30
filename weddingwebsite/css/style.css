@@ -23,12 +23,10 @@ a:hover {
 	background-color: white;
 	color: black;
 }
-
-#logo {
-	margin-right: auto;
-	margin-left: 400px;
+img {
+	display:block;
+	margin:0 auto;
 }
-
 #hphoto {
 	background:url('images/homepage.JPG') no-repeat;
 	background-size:cover;
