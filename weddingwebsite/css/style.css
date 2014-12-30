@@ -1,0 +1,34 @@
+* {
+ margin:0;
+ padding: 0;
+ box-sizing:border-box;
+}
+
+nav {
+	background: #000;
+	border: 1px #000 solid; 
+	font-family: 'Lobster', cursive, sans-serif;
+	font-size: 20px;
+}
+
+nav a {
+	background-color: #000;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+}
+
+#logo {
+	margin-right: auto;
+	margin-left: 400px;
+}
+
+#hphoto {
+}
+
