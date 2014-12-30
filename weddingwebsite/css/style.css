@@ -5,10 +5,10 @@
 }
 
 nav {
-	background: #000;
-	border: 1px #000 solid; 
-	font-family: 'Lobster', cursive, sans-serif;
+	background: #222;
+	font-family: 'Lobster Two', cursive;
 	font-size: 20px;
+	font-style:italic;
 }
 
 nav a {
@@ -20,8 +20,10 @@ nav a {
 }
 
 a:hover {
-	background-color: white;
-	color: black;
+	/*background-color: white;
+	color: black;*/
+	font-family: 'Lobster', cursive;
+	font-style:normal;
 }
 img {
 	display:block;
