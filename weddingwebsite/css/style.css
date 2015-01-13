@@ -3,25 +3,22 @@
  padding: 0;
  box-sizing:border-box;
 }
-nav {
+body {
 	background: #222;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Lobster', cursive, sans-serif;	
+}
+nav {
 	font-size: 20px;
 	font-style:italic;
 	font-weight:700;
 }
 h1 {
-	color: #222;
-	font-family: 'Lobster', cursive, sans-serif;
-	margin-right: auto;
-	margin-left: 600px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin:50px auto;
+	text-align:center;
 }	
 h2 {
 	font-family: 'PT Serif', bold, sans-serif;
-	margin-left: 100px
-	margin-right: 100px;
+	text-align:center;
 }
 a {
 	color: #222;
@@ -53,7 +50,7 @@ header img {
 #wedding div {
 	float: left;
 	width: 50%;
-	padding: 20px 0;
+	padding: 0 2em;
 }
 #wedding div img {
 	width:100%;
