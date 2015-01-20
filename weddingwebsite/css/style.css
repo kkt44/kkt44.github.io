@@ -12,6 +12,7 @@ nav {
 	font-size: 20px;
 	font-style:italic;
 	font-weight:700;
+	float:right;
 }
 h1 {
 	font-size:3em;
@@ -66,7 +67,7 @@ a:hover {
 img { }
 header img {
 	display:block;
-	margin:0 auto;
+	float:left;
 }
 #hphoto {
 	background:url('../images/homepage.JPG') no-repeat;
@@ -74,11 +75,15 @@ header img {
 	height:780px;
 }
 #hphoto div {
-	background:rgba(231, 126, 35, 0.8)
+	background:rgba(231, 126, 35, 0.8);
 	border-radius:1em;
 	color:#fff;
 	padding:2em;
 	position:absolute; right:10%; top:50%;
+}
+#hphoto h1, #hphoto p {
+	margin:0;
+	padding:0;
 }
 #wedding div {
 	float: left;
