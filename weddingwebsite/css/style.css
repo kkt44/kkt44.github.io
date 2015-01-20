@@ -72,7 +72,7 @@ header img {
 #hphoto {
 	background:url('../images/homepage.JPG') no-repeat;
 	background-size:cover;
-	height:780px;
+	height:100vh;
 }
 #hphoto div {
 	background:rgba(231, 126, 35, 0.8);
