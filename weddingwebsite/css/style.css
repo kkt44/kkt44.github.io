@@ -23,6 +23,7 @@ h2 {
 	font-size: 200%;
 	padding: 0 0 1em;
 	text-align:center;
+	border-image:url('images/deco.png') 0 0 100 0;
 }
 h3 {
 	font-family: 'PT Serif', bold, sans-serif;
