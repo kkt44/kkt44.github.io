@@ -23,15 +23,15 @@ h1 {
 }	
 h2 {
 	font-family: 'PT Serif', bold, sans-serif;
-	font-size: 200%;
+	font-size: 2em;
 	padding: 0;
 	text-align:center;
 }
 h3 {
 	font-family: 'PT Serif', bold, sans-serif;
-	font-size: 200%;
-	font-weight: 70px;
-	padding: 1em 0;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 1em 0 0;
 	text-align: center;
 }
 h4 {
@@ -90,8 +90,9 @@ img.deco {
 	width:100%;
 }
 #programme {
-	background:url('../images/pimage.JPG') no-repeat;
+	background:url('../images/pimage.jpg') bottom no-repeat;
 	background-size:cover;
+	padding:3em;
 }
 #ceremony {
 	float:right;
