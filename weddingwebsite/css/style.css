@@ -21,9 +21,8 @@ h1 {
 h2 {
 	font-family: 'PT Serif', bold, sans-serif;
 	font-size: 200%;
-	padding: 0 0 1em;
+	padding: 0;
 	text-align:center;
-	border-image:url('images/deco.png') 0 0 100 0;
 }
 h3 {
 	font-family: 'PT Serif', bold, sans-serif;
@@ -54,6 +53,10 @@ img { }
 header img {
 	display:block;
 	float:left;
+}
+img.deco { 
+	display:block;
+	margin:0 auto;
 }
 #hphoto {
 	background:url('../images/homepage.JPG') no-repeat;
