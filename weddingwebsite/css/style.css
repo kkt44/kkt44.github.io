@@ -10,6 +10,7 @@ body {
 header { 
 	background: #D6D5D3;
 	position:fixed;top:0;left:0;right:0;
+	z-index:2;
 }
 nav {
 	font-size: 20px;
@@ -72,6 +73,7 @@ img.deco {
 	color:#fff;
 	padding:2em;
 	position:absolute; right:10%; top:50%;
+	z-index:1;
 }
 #hphoto h1, #hphoto p {
 	margin:0;
