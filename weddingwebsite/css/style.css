@@ -7,7 +7,7 @@ body {
 	color: #222;
 	font-family: 'Oswald', sans-serif;	
 }
-header { background:#222; }
+header { background: #D6D5D3; }
 nav {
 	font-size: 20px;
 	font-weight:700;
@@ -40,18 +40,11 @@ p {
 	padding: 0 2em;
 	text-align: justify;
 }
-ol {
-	font-family: 'Raleway', sans-serif;
-	padding: 0 2em;
-}
-li{
-	padding: 0 2em;
-}
 a {
 	color: #222;
 }
 nav a {
-	color: white;
+	color: #222;
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px;
@@ -77,6 +70,10 @@ header img {
 	margin:0;
 	padding:0;
 }
+#wedding {
+	background:rgba(214, 213, 211, 0.8);
+	border-radius:1em;
+}
 #wedding div {
 	float: left;
 	width: 50%;
@@ -85,7 +82,10 @@ header img {
 #wedding div img {
 	width:100%;
 }
-#programme div h3{
+#programme {
+	background:url('../images/pimage.JPG') no-repeat;
+	background-size:cover;
+	height:50vh;
 }
 #travel {
 	background:rgba(35, 197, 231, 0.8);
