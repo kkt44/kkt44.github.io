@@ -37,10 +37,12 @@ h3 {
 }
 h4 {
 	font-family: 'Raleway', bold, sans-serif;
+	font-size: 1em;
+	padding: 20px;
 }
 p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 125%;
+	font-family: 'Indie Flower', cursive, sans-serif;
+	font-size: 100%;
 	padding: 0 2em;
 	text-align: justify;
 }
@@ -76,12 +78,18 @@ img.deco {
 	z-index:1;
 }
 #hphoto h1, #hphoto p {
+	font-family: 'PT Serif', bold, sans-serif;
+	font-size: 300%;
 	margin:0;
 	padding:0;
 }
+#hphoto p {
+	font-size: 150%;
+	position: center;
+}
 #wedding {
-	background:rgba(214, 213, 211, 0.8);
-	border-radius:1em;
+	background: #D6D5D3;
+	padding: 50 0 50 0;
 }
 #wedding div {
 	float: left;
@@ -93,20 +101,32 @@ img.deco {
 }
 #programme {
 	background:url('../images/pimage.jpg') bottom no-repeat;
-	background-size:cover;
+	background-size: cover;
 	padding:3em;
 }
 #ceremony {
 	float:right;
 	width:50%;
 }
+#ceremony p {
+	margin: 20 0 0 0;
+}
 #travel {
-	background:rgba(35, 197, 231, 0.8);
-	border-radius:1em;
+	background: #D6D5D3;
+	padding: 30 0 50 0;
 }
 #travel div {
 	float:left;
 	width:33.33%;
+	margin: 30 0 0 0;
+}
+#travel p{
+	margin: 10 0 0 0;
+}
+#accommodation {
+	background:url('../images/aimage.jpg') bottom no-repeat;
+	background-size: cover;
+	padding:3em;
 }
 .clearfix:after{
 	visibility: hidden;
