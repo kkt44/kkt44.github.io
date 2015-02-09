@@ -124,9 +124,28 @@ img.deco {
 	margin: 10 0 0 0;
 }
 #accommodation {
-	background:url('../images/aimage.jpg') bottom no-repeat;
+	background:url('../images/wcd.jpg') bottom no-repeat;
 	background-size: cover;
 	padding:3em;
+}
+#accommodation div{
+	float: right;
+	width: 45%;
+}
+#accommodation p{
+	padding: 20 0 0 0;
+}
+#contact {
+	background: #D6D5D3;
+}
+#contact h3{
+	float: left;
+	margin: 20 0 0 50;
+}
+#contact div{
+	font-family: "Oswald" bold;
+	margin: 70 0 0 60;
+	padding: 0 0 30 0;
 }
 .clearfix:after{
 	visibility: hidden;
