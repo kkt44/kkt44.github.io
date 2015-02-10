@@ -201,7 +201,7 @@ img.deco {
 }
   
 
-@media only and screen and (max-width:1122px;) {
+@media only and screen and (max-width:1122px) {
 	.mobile-nav {
 		display:block;
 	}
