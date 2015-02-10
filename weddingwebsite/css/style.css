@@ -201,14 +201,30 @@ img.deco {
 }
   
 
-@media only and screen and (max-width:1122px) {
+@media only screen and (min-width:940px) and (max-width:1122px) {
 	.mobile-nav {
 		display:block;
 	}
 	nav { display:none; }
 	header img { float:right; }
 	#travel div {
+		float:none;
 		margin:0 auto;
+		width:50%;
+	}
+}
+@media only scree and (max-width:939px) {
+	.mobile-nav {
+		display:block;
+	}
+	nav { display:none; }
+	header img { float:right; }
+	#travel div {
+		float:none;
+		margin:0 auto;
+		width:50%;
+	}
+	#accommodation {
 		width:50%;
 	}
 }
