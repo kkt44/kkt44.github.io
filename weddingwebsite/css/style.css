@@ -115,7 +115,8 @@ img.deco {
 #travel div {
 	float:left;
 	width:33.33%;
-	margin: 30 0 0 0;
+	margin: 0;
+	padding:1em;
 }
 #travel p{
 	margin: 10 0 0 0;
@@ -201,7 +202,15 @@ img.deco {
   
 
 @media only and screen and (max-width:1122px;) {
-	
+	.mobile-nav {
+		display:block;
+	}
+	nav { display:none; }
+	header img { float:right; }
+	#travel div {
+		margin:0 auto;
+		width:50%;
+	}
 }
 
 
